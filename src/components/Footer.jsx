@@ -110,7 +110,7 @@ const Footer = () => {
               <FiPhone className="text-pink-500 dark:text-pink-400" /> +91 9789140874
             </p>
             <p className="text-sm text-gray-600 dark:text-gray-300 flex items-center justify-center md:justify-end gap-2">
-              <FiMapPin className="text-pink-500 dark:text-pink-400" /> Sathyamangalam, Tamil Nadu
+              <FiMapPin className="text-pink-500 dark:text-pink-400" /> Erode, Tamil Nadu
             </p>
           </motion.div>
         </div>

@@ -312,7 +312,7 @@ const About = () => {
             style={{ rotateX, rotateY }}
           >
             <motion.img
-              src="/assets/shrinitharshnaa.jpg"
+              src="public\image.png"
               alt="Shrinitharshnaa K, Full Stack Developer and UI Designer"
               className="w-full h-72 object-cover rounded-xl mb-4"
               initial={{ opacity: 0, scale: 0.95 }}
@@ -323,7 +323,7 @@ const About = () => {
             <div className="text-center">
               <h3 className="text-xl font-semibold text-pink-600 dark:text-pink-400">Shrinitharshnaa K</h3>
               <p className="text-sm text-gray-600 dark:text-gray-300">Full Stack Developer & UI Designer</p>
-              <p className="text-sm text-gray-600 dark:text-gray-300">Sathyamangalam, Tamil Nadu</p>
+              <p className="text-sm text-gray-600 dark:text-gray-300">Erode, Tamil Nadu</p>
               <div className="flex gap-4 justify-center mt-4">
                 {[
                   { url: 'https://github.com/shrinitharshnaak', icon: <FaGithub />, label: 'GitHub' },
@@ -404,7 +404,7 @@ const About = () => {
               className="text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
             >
               <p>
-                I’m Shrinitharshnaa K, a 3rd-year B.E. Computer Science and Design student at Kongu Engineering College, Sathyamangalam. My passion is weaving creativity and code to build web applications that are both beautiful and functional.
+                I’m Shrinitharshnaa K, a 3rd-year B.E. Computer Science and Design student at Kongu Engineering College, Perundurai. My passion is weaving creativity and code to build web applications that are both beautiful and functional.
               </p>
               <p className="mt-4">
                 Whether it’s designing sleek interfaces in Figma or building robust full-stack apps with React, Node.js, and MongoDB, I’m driven by the joy of creating seamless user experiences. Let’s collaborate to turn your vision into reality!

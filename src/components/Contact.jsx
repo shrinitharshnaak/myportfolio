@@ -75,7 +75,7 @@ const Contact = () => {
   };
 
   const contactInfo = [
-    { icon: <FiMapPin className="text-xl" />, title: 'Location', details: 'Sathyamangalam, Tamil Nadu, India' },
+    { icon: <FiMapPin className="text-xl" />, title: 'Location', details: 'Erode, Tamil Nadu, India' },
     { icon: <FiMail className="text-xl" />, title: 'Email', details: 'shrinitharshnaa@gmail.com' },
     { icon: <FiPhone className="text-xl" />, title: 'Phone', details: '+91 9789140874' },
   ];

@@ -21,7 +21,7 @@ const Edu = () => {
       degree: 'B.E. Computer Science and Design',
       institution: 'Kongu Engineering College, Perundurai',
       duration: '2022-2026 (3rd Year)',
-      description: 'CGPA: 8.5 (Up to 4th Semester)',
+      description: 'CGPA: 8.22 (Up to 3rd Semester)',
       category: 'college',
       details: 'Pursuing a specialized program in Computer Science and Design, focusing on full-stack development, UI/UX design, and innovative tech solutions through coursework and projects.',
     },
