@@ -15,6 +15,30 @@ const About = () => {
   const animationIdRef = useRef(null);
   const cardRef = useRef(null);
 
+  // Social links data with proper attributes
+  const socialLinks = [
+    { 
+      url: 'https://github.com/shrinitharshnaak', 
+      icon: <FaGithub />, 
+      label: 'GitHub',
+      target: '_blank',
+      rel: 'noopener noreferrer'
+    },
+    { 
+      url: 'https://www.linkedin.com/in/shrinitharshnaa-kuppusamy-4a61a8360/', 
+      icon: <FaLinkedin />, 
+      label: 'LinkedIn',
+      target: '_blank',
+      rel: 'noopener noreferrer'
+    },
+    { 
+      url: 'tel:+919789140874', 
+      icon: <FaPhone />, 
+      label: 'Phone',
+      target: '_self'
+    },
+  ];
+
   // Smooth cursor animation
   const springConfig = { damping: 25, stiffness: 100 };
   const mouseX = useSpring(0, springConfig);
@@ -325,16 +349,12 @@ const About = () => {
               <p className="text-sm text-gray-600 dark:text-gray-300">Full Stack Developer & UI Designer</p>
               <p className="text-sm text-gray-600 dark:text-gray-300">Erode, Tamil Nadu</p>
               <div className="flex gap-4 justify-center mt-4">
-                {[
-                  { url: 'https://github.com/shrinitharshnaak', icon: <FaGithub />, label: 'GitHub' },
-                  { url: 'https://www.linkedin.com/in/shrinitharshnaa-kuppusamy-4a61a8360/', icon: <FaLinkedin />, label: 'LinkedIn' },
-                  { url: 'tel:+919789140874', icon: <FaPhone />, label: 'Phone' },
-                ].map((social) => (
+                {socialLinks.map((social) => (
                   <motion.a
                     key={social.label}
                     href={social.url}
-                    target={social.label === 'Phone' ? '_self' : '_blank'}
-                    rel={social.label === 'Phone' ? undefined : 'noopener noreferrer'}
+                    target={social.target}
+                    rel={social.rel}
                     className="p-2 text-pink-500 dark:text-pink-400 hover:text-purple-500 dark:hover:text-purple-400"
                     whileHover={{ scale: 1.2 }}
                     whileTap={{ scale: 0.9 }}
@@ -522,7 +542,6 @@ const About = () => {
             <FaChevronDown className="text-2xl animate-bounce" />
           </a>
         </motion.div>
-
       </div>
 
       {/* Custom Styles */}
