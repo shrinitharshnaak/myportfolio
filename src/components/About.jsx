@@ -327,7 +327,7 @@ const About = () => {
               <div className="flex gap-4 justify-center mt-4">
                 {[
                   { url: 'https://github.com/shrinitharshnaak', icon: <FaGithub />, label: 'GitHub' },
-                  { url: 'https://linkedin.com/in/shrinitharshnaa-kuppusamy', icon: <FaLinkedin />, label: 'LinkedIn' },
+                  { url: 'https://www.linkedin.com/in/shrinitharshnaa-kuppusamy-4a61a8360/', icon: <FaLinkedin />, label: 'LinkedIn' },
                   { url: 'tel:+919789140874', icon: <FaPhone />, label: 'Phone' },
                 ].map((social) => (
                   <motion.a
@@ -355,7 +355,7 @@ const About = () => {
                   <FaDownload className="inline mr-2" /> Resume
                 </motion.button>
                 <motion.a
-                  href="#contact"
+                  href="mailto:shrinitharshnaakuppusamy@gmail.com"
                   className="px-4 py-2 text-sm font-medium text-pink-500 border border-pink-300 rounded-full hover:bg-pink-100/50 dark:text-pink-400 dark:border-pink-500/30 dark:hover:bg-gray-800/50"
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -404,10 +404,10 @@ const About = () => {
               className="text-base md:text-lg text-gray-600 dark:text-gray-300 leading-relaxed"
             >
               <p>
-                I’m Shrinitharshnaa K, a 3rd-year B.E. Computer Science and Design student at Kongu Engineering College, Perundurai. My passion is weaving creativity and code to build web applications that are both beautiful and functional.
+                I'm Shrinitharshnaa K, a 3rd-year B.E. Computer Science and Design student at Kongu Engineering College, Perundurai. My passion is weaving creativity and code to build web applications that are both beautiful and functional.
               </p>
               <p className="mt-4">
-                Whether it’s designing sleek interfaces in Figma or building robust full-stack apps with React, Node.js, and MongoDB, I’m driven by the joy of creating seamless user experiences. Let’s collaborate to turn your vision into reality!
+                Whether it's designing sleek interfaces in Figma or building robust full-stack apps with React, Node.js, and MongoDB, I'm driven by the joy of creating seamless user experiences. Let's collaborate to turn your vision into reality!
               </p>
             </motion.div>
           </motion.div>
