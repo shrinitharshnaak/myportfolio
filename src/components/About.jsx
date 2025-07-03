@@ -336,7 +336,7 @@ const About = () => {
             style={{ rotateX, rotateY }}
           >
             <motion.img
-              src="public\image.png"
+              src="public\profile.jpeg"
               alt="Shrinitharshnaa K, Full Stack Developer and UI Designer"
               className="w-full h-72 object-cover rounded-xl mb-4"
               initial={{ opacity: 0, scale: 0.95 }}
